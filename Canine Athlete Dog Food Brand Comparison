@@ -1,0 +1,139 @@
+CREATE TABLE dog_food
+    (id INTEGER PRIMARY KEY AUTOINCREMENT,
+    brand_name TEXT, 
+    food_name TEXT, 
+    primary_protein TEXT,
+    grain_free TEXT,
+    corn_wheat_soy_free TEXT,
+    chicken_free TEXT,
+    kcalcup INTEGER, 
+    protein INTEGER, 
+    fat INTEGER, 
+    price INTEGER, 
+    bag_size INTEGER, 
+    price_per_pound INTEGER, 
+    recalls TEXT);
+
+
+INSERT INTO dog_food(brand_name, food_name, primary_protein, grain_free, corn_wheat_soy_free, chicken_free, kcalcup, protein, fat, price, bag_size, price_per_pound, recalls) VALUES ("diamond_naturals", "extreme_athlete", "chicken", "N", "N", "N", 470, 32, 25, 54.99, 40, 1.38, "Y");
+INSERT INTO dog_food(brand_name, food_name, primary_protein, grain_free, corn_wheat_soy_free, chicken_free, kcalcup, protein, fat, price, bag_size, price_per_pound, recalls) VALUES ("sport_dog_food", "elite_series", "buffalo", "N", "Y", "N", 460, 30, 15, 79.99, 40, 1.38, "Y");
+INSERT INTO dog_food(brand_name, food_name, primary_protein, grain_free, corn_wheat_soy_free, chicken_free, kcalcup, protein, fat, price, bag_size, price_per_pound, recalls) VALUES ("victor", "hi_pro_plus", "beef_meal", "N", "Y", "N", 406, 30, 20, 61.99, 40, 1.55, "Y");
+INSERT INTO dog_food(brand_name, food_name, primary_protein, grain_free, corn_wheat_soy_free, chicken_free, kcalcup, protein, fat, price, bag_size, price_per_pound, recalls) VALUES ("inukshuk", "marine25", "salmon_meal", "N", "Y", "Y", 580, 30, 25, 83.45, 33, 2.53, "N");
+INSERT INTO dog_food(brand_name, food_name, primary_protein, grain_free, corn_wheat_soy_free, chicken_free, kcalcup, protein, fat, price, bag_size, price_per_pound, recalls) VALUES ("inukshuk", "marine16", "salmon_meal", "N", "Y", "Y", 474, 26, 16, 79.45, 33, 2.41, "N");
+INSERT INTO dog_food(brand_name, food_name, primary_protein, grain_free, corn_wheat_soy_free, chicken_free, kcalcup, protein, fat, price, bag_size, price_per_pound, recalls) VALUES ("inukshuk", "26/16", "chicken_meal", "N", "N", "N", 472, 26, 16, 68.45, 33, 2.08, "N");
+INSERT INTO dog_food(brand_name, food_name, primary_protein, grain_free, corn_wheat_soy_free, chicken_free, kcalcup, protein, fat, price, bag_size, price_per_pound, recalls) VALUES ("inukshuk", "30/25", "chicken_meal", "N", "N", "N", 578, 30, 25, 74.45, 33, 2.26, "N");
+INSERT INTO dog_food(brand_name, food_name, primary_protein, grain_free, corn_wheat_soy_free, chicken_free, kcalcup, protein, fat, price, bag_size, price_per_pound, recalls) VALUES ("inukshuk", "32/32", "chicken_meal", "N", "N", "N", 720, 32, 32, 94.95, 44, 2.16, "N");
+INSERT INTO dog_food(brand_name, food_name, primary_protein, grain_free, corn_wheat_soy_free, chicken_free, kcalcup, protein, fat, price, bag_size, price_per_pound, recalls) VALUES ("annamaet", "aqualuk", "salmon_meal","Y", "Y", "Y", 426, 30, 16, 104.99, 25, 4.20, "N");
+INSERT INTO dog_food(brand_name, food_name, primary_protein, grain_free, corn_wheat_soy_free, chicken_free, kcalcup, protein, fat, price, bag_size, price_per_pound, recalls) VALUES ("annamaet", "manitok", "deboned_lamb", "Y", "Y", "Y", 422, 30, 16, 84.99, 25, 3.40, "N");
+INSERT INTO dog_food(brand_name, food_name, primary_protein, grain_free, corn_wheat_soy_free, chicken_free, kcalcup, protein, fat, price, bag_size, price_per_pound, recalls) VALUES ("annamaet", "salcha", "chicken_meal","Y", "Y", "N", 430, 30, 16, 85.99, 25, 3.44, "N");
+INSERT INTO dog_food(brand_name, food_name, primary_protein, grain_free, corn_wheat_soy_free, chicken_free, kcalcup, protein, fat, price, bag_size, price_per_pound, recalls) VALUES ("annamaet", "ultra", "chicken_meal", "N", "Y", "N", 480, 32, 20, 134.99, 40, 3.38, "N");
+INSERT INTO dog_food(brand_name, food_name, primary_protein, grain_free, corn_wheat_soy_free, chicken_free, kcalcup, protein, fat, price, bag_size, price_per_pound, recalls) VALUES ("annamaet", "extra", "chicken_meal", "N", "Y", "N", 480, 32, 20, 105.99, 40, 2.65, "N");
+INSERT INTO dog_food(brand_name, food_name, primary_protein, grain_free, corn_wheat_soy_free, chicken_free, kcalcup, protein, fat, price, bag_size, price_per_pound, recalls) VALUES ("kinetic", "active_26k", "chicken_meal", "N", "Y", "N", 444, 26, 16, 61.99, 35, 1.78, "N");
+INSERT INTO dog_food(brand_name, food_name, primary_protein, grain_free, corn_wheat_soy_free, chicken_free, kcalcup, protein, fat, price, bag_size, price_per_pound, recalls) VALUES ("kinetic", "power_30k", "chicken_meal", "N", "Y", "N", 462, 30, 20, 62.99, 35, 1.80, "N");
+INSERT INTO dog_food(brand_name, food_name, primary_protein, grain_free, corn_wheat_soy_free, chicken_free, kcalcup, protein, fat, price, bag_size, price_per_pound, recalls) VALUES ("kinetic", "ultra_32k", "chicken_meal", "N", "Y", "N", 477, 32, 24, 63.99, 35, 1.83, "N");
+INSERT INTO dog_food(brand_name, food_name, primary_protein, grain_free, corn_wheat_soy_free, chicken_free, kcalcup, protein, fat, price, bag_size, price_per_pound, recalls) VALUES ("purina", "proplan_complete_essentials", "chicken", "N", "N", "N", 466, 29, 14, 74.99, 35, 2.12, "Y");
+INSERT INTO dog_food(brand_name, food_name, primary_protein, grain_free, corn_wheat_soy_free, chicken_free, kcalcup, protein, fat, price, bag_size, price_per_pound, recalls) VALUES ("purina", "proplan_performance_30_20", "chicken", "N", "N", "N", 484, 30, 20, 88.98, 50, 1.78, "Y");
+INSERT INTO dog_food(brand_name, food_name, primary_protein, grain_free, corn_wheat_soy_free, chicken_free, kcalcup, protein, fat, price, bag_size, price_per_pound, recalls) VALUES ("canidae", "active_goodness", "salmon_meal", "N", "Y", "N", 558, 30, 20, 54.99, 30, 1.83, "N");
+INSERT INTO dog_food(brand_name, food_name, primary_protein, grain_free, corn_wheat_soy_free, chicken_free, kcalcup, protein, fat, price, bag_size, price_per_pound, recalls) VALUES ("canidae", "all_life_stages", "chicken_meal", "N", "Y", "N", 506, 24, 10, 69.99, 40, 1.60, "N");
+INSERT INTO dog_food(brand_name, food_name, primary_protein, grain_free, corn_wheat_soy_free, chicken_free, kcalcup, protein, fat, price, bag_size, price_per_pound, recalls) VALUES ("taste_of_the_wild", "ancient_stream", "salmon", "N", "N", "Y", 413, 30, 15, 58.99, 28, 2.11, "Y");
+INSERT INTO dog_food(brand_name, food_name, primary_protein, grain_free, corn_wheat_soy_free, chicken_free, kcalcup, protein, fat, price, bag_size, price_per_pound, recalls) VALUES ("taste_of_the_wild", "ancient_mountain", "lamb", "N", "N", "Y", 411, 25, 15, 58.99, 28, 2.11, "Y");
+INSERT INTO dog_food(brand_name, food_name, primary_protein, grain_free, corn_wheat_soy_free, chicken_free, kcalcup, protein, fat, price, bag_size, price_per_pound, recalls) VALUES ("taste_of_the_wild", "ancient_prairie", "water_buffalo", "N", "N", "N", 445, 32, 18, 58.99, 28, 2.11, "Y");
+INSERT INTO dog_food(brand_name, food_name, primary_protein, grain_free, corn_wheat_soy_free, chicken_free, kcalcup, protein, fat, price, bag_size, price_per_pound, recalls) VALUES ("taste_of_the_wild", "ancient_wetlands", "duck", "N", "N", "N", 425, 32, 18, 58.99, 28, 2.11, "Y");
+INSERT INTO dog_food(brand_name, food_name, primary_protein, grain_free, corn_wheat_soy_free, chicken_free, kcalcup, protein, fat, price, bag_size, price_per_pound, recalls) VALUES ("orijen", "original", "chicken", "Y", "Y", "N", 473, 38, 18, 101.85, 23.5, 4.31, "N");
+INSERT INTO dog_food(brand_name, food_name, primary_protein, grain_free, corn_wheat_soy_free, chicken_free, kcalcup, protein, fat, price, bag_size, price_per_pound, recalls) VALUES ("orijen", "regional_red", "beef", "Y", "Y", "Y", 463, 38, 18, 116.15, 23.5, 4.95, "N");
+INSERT INTO dog_food(brand_name, food_name, primary_protein, grain_free, corn_wheat_soy_free, chicken_free, kcalcup, protein, fat, price, bag_size, price_per_pound, recalls) VALUES ("orijen", "six_fish", "whole_herring", "Y", "Y", "Y", 451, 40, 16, 112.99, 23.5, 4.81, "N");
+INSERT INTO dog_food(brand_name, food_name, primary_protein, grain_free, corn_wheat_soy_free, chicken_free, kcalcup, protein, fat, price, bag_size, price_per_pound, recalls) VALUES ("orijen", "tundra", "lamb", "Y", "Y", "Y", 463, 40, 18, 148.99, 23.5, 6.34, "N");
+INSERT INTO dog_food(brand_name, food_name, primary_protein, grain_free, corn_wheat_soy_free, chicken_free, kcalcup, protein, fat, price, bag_size, price_per_pound, recalls) VALUES ("dr._tims", "active_dog_pursuit", "chicken_meal", "N", "Y", "N" , 464, 30, 20, 115.59, 40, 2.89, "N");
+INSERT INTO dog_food(brand_name, food_name, primary_protein, grain_free, corn_wheat_soy_free, chicken_free, kcalcup, protein, fat, price, bag_size, price_per_pound, recalls) VALUES ("dr._tims", "highly_athletic_momentum", "chicken_meal", "N", "Y", "N", 518, 35, 25, 139.39, 40, 4.49, "N");
+INSERT INTO dog_food(brand_name, food_name, primary_protein, grain_free, corn_wheat_soy_free, chicken_free, kcalcup, protein, fat, price, bag_size, price_per_pound, recalls) VALUES ("acana", "highest_protein_appalachian_ranch", "deboned_beef", "Y", "Y", "Y", 388, 33, 17, 95.99, 25, 3.84, "N");
+INSERT INTO dog_food(brand_name, food_name, primary_protein, grain_free, corn_wheat_soy_free, chicken_free, kcalcup, protein, fat, price, bag_size, price_per_pound, recalls)VALUES ("acana", "highest_protein_grasslands", "lamb", "Y", "Y", "N", 388, 33, 17, 102.99, 25, 3.12, "N");
+INSERT INTO dog_food(brand_name, food_name, primary_protein, grain_free, corn_wheat_soy_free, chicken_free, kcalcup, protein, fat, price, bag_size, price_per_pound, recalls) VALUES ("acana", "highest_protein_meadowland", "deboned_chicken", "Y", "Y", "N", 392, 33, 17, 79.85, 25, 3.20, "N");
+INSERT INTO dog_food(brand_name, food_name, primary_protein, grain_free, corn_wheat_soy_free, chicken_free, kcalcup, protein, fat, price, bag_size, price_per_pound, recalls) VALUES ("acana", "highest_protein_wild_atlantic", "whole_mackerel", "Y", "Y", "Y", 392, 33, 17, 94.99, 25, 3.80, "N");
+INSERT INTO dog_food(brand_name, food_name, primary_protein, grain_free, corn_wheat_soy_free, chicken_free, kcalcup, protein, fat, price, bag_size, price_per_pound, recalls) VALUES ("natures_logic", "canine_beef_meal_feast", "beef_meal", "N", "Y", "N", 375, 34, 15, 79.99, 25, 3.20, "N");
+INSERT INTO dog_food(brand_name, food_name, primary_protein, grain_free, corn_wheat_soy_free, chicken_free, kcalcup, protein, fat, price, bag_size, price_per_pound, recalls) VALUES ("natures_logic", "canine_chicken_meal_feast", "chicken_meal", "N", "Y", "N", 418, 36, 15, 79.99, 25, 3.20, "N");
+INSERT INTO dog_food(brand_name, food_name, primary_protein, grain_free, corn_wheat_soy_free, chicken_free, kcalcup, protein, fat, price, bag_size, price_per_pound, recalls) VALUES ("natures_logic", "canine_duck_&_salmon_meal_feast", "duck_meal", "N", "Y", "N", 417, 38, 15, 96.99, 25, 3.88, "N");
+INSERT INTO dog_food(brand_name, food_name, primary_protein, grain_free, corn_wheat_soy_free, chicken_free, kcalcup, protein, fat, price, bag_size, price_per_pound, recalls) VALUES ("natures_logic", "canine_lamb_meal_feast", "lamb_meal", "N", "Y", "N", 394, 32, 15, 94.99, 25, 3.80, "N");
+INSERT INTO dog_food(brand_name, food_name, primary_protein, grain_free, corn_wheat_soy_free, chicken_free, kcalcup, protein, fat, price, bag_size, price_per_pound, recalls) VALUES ("natures_logic", "canine_pork_meal_feast", "pork_meal", "N", "Y", "N", 375, 38, 15, 82.99, 25, 3.32, "N");
+INSERT INTO dog_food(brand_name, food_name, primary_protein, grain_free, corn_wheat_soy_free, chicken_free, kcalcup, protein, fat, price, bag_size, price_per_pound, recalls) VALUES ("natures_logic", "canine_rabbit_meal_feast", "rabbit_meal", "N", "Y", "N", 389, 36, 15, 114.99, 25, 4.60, "N");
+INSERT INTO dog_food(brand_name, food_name, primary_protein, grain_free, corn_wheat_soy_free, chicken_free, kcalcup, protein, fat, price, bag_size, price_per_pound, recalls) VALUES ("natures_logic", "canine_sardine_meal_feast", "sardine_meal", "N", "Y", "N", 418, 36, 8, 89.99, 25, 3.60, "N");
+INSERT INTO dog_food(brand_name, food_name, primary_protein, grain_free, corn_wheat_soy_free, chicken_free, kcalcup, protein, fat, price, bag_size, price_per_pound, recalls) VALUES ("natures_logic", "canine_turkey_meal_feast", "turkey_meal", "N", "Y", "N", 418, 36, 15, 89.99, 25, 3.60, "N");
+INSERT INTO dog_food(brand_name, food_name, primary_protein, grain_free, corn_wheat_soy_free, chicken_free, kcalcup, protein, fat, price, bag_size, price_per_pound, recalls) VALUES ("natures_logic", "canine_venison_meal_feast", "venison_meal", "N", "Y", "N", 375, 34, 15, 115.56, 25, 4.63, "N");
+
+CREATE TABLE price_per_cup
+    (id INTEGER PRIMARY KEY AUTOINCREMENT,
+    "brand_name" TEXT,
+    "food_name" TEXT,
+    "price_per_cup" INTEGER);
+    
+INSERT INTO price_per_cup(brand_name, food_name, price_per_cup) VALUES ("diamond_naturals", "extreme_athlete", .345);
+INSERT INTO price_per_cup(brand_name, food_name, price_per_cup) VALUES ("diamond_naturals", "extreme_athlete",	0.345);
+INSERT INTO price_per_cup(brand_name, food_name, price_per_cup) VALUES ("sport_dog_food",	"elite_series", 0.345);
+INSERT INTO price_per_cup(brand_name, food_name, price_per_cup) VALUES ("victor", "hi_pro_plus",	0.3875);
+INSERT INTO price_per_cup(brand_name, food_name, price_per_cup) VALUES ("inukshuk",	"marine25",	0.6325);
+INSERT INTO price_per_cup(brand_name, food_name, price_per_cup) VALUES ("inukshuk",	"marine16",	0.6025);
+INSERT INTO price_per_cup(brand_name, food_name, price_per_cup) VALUES ("inukshuk",	"26/16", 0.52);
+INSERT INTO price_per_cup(brand_name, food_name, price_per_cup) VALUES ("inukshuk",	"30/25", 0.565);
+INSERT INTO price_per_cup(brand_name, food_name, price_per_cup) VALUES ("inukshuk",	"32/32", 0.54);
+INSERT INTO price_per_cup(brand_name, food_name, price_per_cup) VALUES ("annamaet",	"aqualuk",	1.05);
+INSERT INTO price_per_cup(brand_name, food_name, price_per_cup) VALUES ("annamaet", "manitok", 0.85);
+INSERT INTO price_per_cup(brand_name, food_name, price_per_cup) VALUES ("annamaet",	"salcha",	0.86);
+INSERT INTO price_per_cup(brand_name, food_name, price_per_cup) VALUES ("annamaet",	"ultra", 0.845);
+INSERT INTO price_per_cup(brand_name, food_name, price_per_cup) VALUES ("annamaet",	"extra",	0.6625);
+INSERT INTO price_per_cup(brand_name, food_name, price_per_cup) VALUES ("kinetic",	"active_26k",	0.445);
+INSERT INTO price_per_cup(brand_name, food_name, price_per_cup) VALUES ("kinetic",	"power_30k",	0.45);
+INSERT INTO price_per_cup(brand_name, food_name, price_per_cup) VALUES ("kinetic", "ultra_32k",	0.4575);
+INSERT INTO price_per_cup(brand_name, food_name, price_per_cup) VALUES ("purina",	"proplan_complete_essentials",	0.53);
+INSERT INTO price_per_cup(brand_name, food_name, price_per_cup) VALUES ("purina", "proplan_performance_30_20",	0.445);
+INSERT INTO price_per_cup(brand_name, food_name, price_per_cup) VALUES ("canidae",	"active_goodness",	0.4575);
+INSERT INTO price_per_cup(brand_name, food_name, price_per_cup) VALUES ("canidae",	"all_life_stages",	0.4);
+INSERT INTO price_per_cup(brand_name, food_name, price_per_cup) VALUES ("taste_of_the_wild",	"ancient_stream", 0.5275);
+INSERT INTO price_per_cup(brand_name, food_name, price_per_cup) VALUES ("taste_of_the_wild",	"ancient_mountain",	0.5275);
+INSERT INTO price_per_cup(brand_name, food_name, price_per_cup) VALUES ("taste_of_the_wild",	"ancient_prairie",	0.5275);
+INSERT INTO price_per_cup(brand_name, food_name, price_per_cup) VALUES ("taste_of_the_wild",	"ancient_wetlands",	0.5275);
+INSERT INTO price_per_cup(brand_name, food_name, price_per_cup) VALUES ("orijen",	"original",	1.0775);
+INSERT INTO price_per_cup(brand_name, food_name, price_per_cup) VALUES ("orijen",	"regional_red",	1.2375);
+INSERT INTO price_per_cup(brand_name, food_name, price_per_cup) VALUES ("orijen",	"six_fish",	1.2025);
+INSERT INTO price_per_cup(brand_name, food_name, price_per_cup) VALUES ("orijen",	"tundra",	1.585);
+INSERT INTO price_per_cup(brand_name, food_name, price_per_cup) VALUES ("dr._tims",	"active_dog_pursuit",	0.7225);
+INSERT INTO price_per_cup(brand_name, food_name, price_per_cup) VALUES ("dr._tims",	"highly_athletic_momentum",	1.1225);
+INSERT INTO price_per_cup(brand_name, food_name, price_per_cup) VALUES ("acana",	"highest_protein_appalachian_ranch",	0.96);
+INSERT INTO price_per_cup(brand_name, food_name, price_per_cup) VALUES ("acana",	"highest_protein_grasslands",	0.78);
+INSERT INTO price_per_cup(brand_name, food_name, price_per_cup) VALUES ("acana",	"highest_protein_meadowland",	0.8);
+INSERT INTO price_per_cup(brand_name, food_name, price_per_cup) VALUES ("acana",	"highest_protein_wild_atlantic",	0.95);
+INSERT INTO price_per_cup(brand_name, food_name, price_per_cup) VALUES ("natures_logic",	"canine_beef_meal_feast",	0.8);
+INSERT INTO price_per_cup(brand_name, food_name, price_per_cup) VALUES ("natures_logic",	"canine_chicken_meal_feast",	0.8);
+INSERT INTO price_per_cup(brand_name, food_name, price_per_cup) VALUES ("natures_logic",	"canine_duck_&_salmon_meal_feast",	0.97);
+INSERT INTO price_per_cup(brand_name, food_name, price_per_cup) VALUES ("natures_logic",	"canine_lamb_meal_feast",	0.95);
+INSERT INTO price_per_cup(brand_name, food_name, price_per_cup) VALUES ("natures_logic",	"canine_pork_meal_feast",	0.83);
+INSERT INTO price_per_cup(brand_name, food_name, price_per_cup) VALUES ("natures_logic",	"canine_rabbit_meal_feast",	1.15);
+INSERT INTO price_per_cup(brand_name, food_name, price_per_cup) VALUES ("natures_logic",	"canine_sardine_meal_feast",	0.9);
+INSERT INTO price_per_cup(brand_name, food_name, price_per_cup) VALUES ("natures_logic",	"canine_turkey_meal_feast",	0.9);
+INSERT INTO price_per_cup(brand_name, food_name, price_per_cup) VALUES ("natures_logic",	"canine_venison_meal_feast",	1.1575);
+
+SELECT * FROM dog_food;
+SELECT * FROM price_per_cup;
+
+SELECT brand_name, food_name FROM dog_food WHERE brand_name IN(SELECT brand_name FROM price_per_cup WHERE price_per_cup < .80);
+
+/*CASE*/
+SELECT brand_name, food_name,
+    CASE
+        WHEN protein > 31 THEN "excessive_protein"
+        WHEN protein > 28 THEN "high_protein"
+        WHEN protein < 27 THEN "normal_protein"
+        END as "protein_zone"
+FROM dog_food;
+    
+SELECT COUNT(*),
+    CASE
+     WHEN protein > 31 THEN "excessive_protein"
+        WHEN protein > 28 THEN "high_protein"
+        WHEN protein < 27 THEN "normal_protein"
+        END as "protein_zone"
+    FROM dog_food
+    GROUP BY "protein_zone";
+
+SELECT * FROM dog_food WHERE corn_wheat_soy_free = "Y" AND chicken_free = "Y" AND kcalcup > 450 ORDER BY price_per_pound;
+
+SELECT brand_name, AVG(price) AS avg_price FROM dog_food
+GROUP BY brand_name; 
